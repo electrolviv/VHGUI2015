@@ -1,0 +1,25 @@
+/*
+ * objtypes.h
+ *
+ *  Created on: Dec 9, 2015
+ *      Author: Viktor
+ */
+
+#ifndef GUI2015INC_OBJTYPES_H_
+#define GUI2015INC_OBJTYPES_H_
+
+
+typedef enum {
+	eGUI2015_OBJ_UNK = 0,
+	eGUI2015_OBJ_WINDOW,
+	eGUI2015_OBJ_LAB,
+	eGUI2015_OBJ_BUT,
+	eGUI2015_OBJ_PIC,
+	eGUI2015_OBJ_GRAPH,
+	eGUI2015_OBJ_PBAR,
+	eGUI2015_OBJ_CHBOX,
+	eGUI2015_OBJ_LAST
+} enGUI2015Obj;
+
+
+#endif /* GUI2015INC_OBJTYPES_H_ */
